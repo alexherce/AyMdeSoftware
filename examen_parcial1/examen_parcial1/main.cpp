@@ -7,9 +7,29 @@
 //
 
 #include <iostream>
+#include "pasteleria.h"
+#include "iterador.h"
+
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    
+    Creator* pasteles = ConcreteCreator::GetInstance();
+    Product* miProducto = pasteles->createProduct(1);
+    
+    Aggregate<Product*> p;
+    p.add(miProducto);
+    
+    
+    Iterator<Product*>* i;
+    for(i = p.getIterator(); i->hasNext(); )
+    {
+        cout << (i->next())->getNombre();
+        cout << (i->next())->getSucursal();
+    }
+    delete i;
+    
+    
     return 0;
 }
