@@ -23,6 +23,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		82C146701DBA3EBC00922F44 /* Observer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		82C146711DBA3EDB00922F44 /* Observable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Observable.h; sourceTree = "<group>"; };
+		82C146741DBA417D00922F44 /* MVS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVS.h; sourceTree = "<group>"; };
+		82C146751DBA419500922F44 /* Televisa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Televisa.h; sourceTree = "<group>"; };
+		82C146761DBA41B000922F44 /* TVAzteca.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVAzteca.h; sourceTree = "<group>"; };
+		82C146771DBA41C200922F44 /* RadioFormula.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadioFormula.h; sourceTree = "<group>"; };
+		82C146781DBA41D700922F44 /* CNN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNN.h; sourceTree = "<group>"; };
+		82C146791DBA41EC00922F44 /* PenaNieto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PenaNieto.h; sourceTree = "<group>"; };
+		82C1467A1DBA41FF00922F44 /* Hillary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hillary.h; sourceTree = "<group>"; };
+		82C1467B1DBA421100922F44 /* Trump.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trump.h; sourceTree = "<group>"; };
 		82FB49F11DBA3110004925AB /* Ejercicio1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ejercicio1; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FB49F41DBA3110004925AB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +68,16 @@
 			isa = PBXGroup;
 			children = (
 				82FB49F41DBA3110004925AB /* main.cpp */,
+				82C146701DBA3EBC00922F44 /* Observer.h */,
+				82C146711DBA3EDB00922F44 /* Observable.h */,
+				82C146741DBA417D00922F44 /* MVS.h */,
+				82C146751DBA419500922F44 /* Televisa.h */,
+				82C146761DBA41B000922F44 /* TVAzteca.h */,
+				82C146771DBA41C200922F44 /* RadioFormula.h */,
+				82C146781DBA41D700922F44 /* CNN.h */,
+				82C146791DBA41EC00922F44 /* PenaNieto.h */,
+				82C1467A1DBA41FF00922F44 /* Hillary.h */,
+				82C1467B1DBA421100922F44 /* Trump.h */,
 			);
 			path = Ejercicio1;
 			sourceTree = "<group>";
@@ -239,6 +259,7 @@
 				82FB49FA1DBA3110004925AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
